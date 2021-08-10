@@ -31,7 +31,7 @@
 			# START COLUMNS DO NOT REMOVE THIS LINE
 			$this->col = [];
 			$this->col[] = ["label"=>"Kode RM","name"=>"kode_rm"];
-			$this->col[] = ["label"=>"Pasien","name"=>"pasien_id","join"=>"pasien,id"];
+			$this->col[] = ["label"=>"Pasien","name"=>"pasien_id","join"=>"pasien,nama"];
 			$this->col[] = ["label"=>"Dokter","name"=>"dokter_id","join"=>"dokter,nama"];
 			$this->col[] = ["label"=>"Tindakan","name"=>"tindakan_id","join"=>"tindakan,tindakan"];
 			$this->col[] = ["label"=>"Obat","name"=>"obat_id","join"=>"obat,obat"];
